@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bttostrap-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- modify style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="responsive.css">
+    <title>Vex</title>
+
+    <style>
+        form{
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body class="bg-dark">
+    <!-- nav area -->
+    <header>
+        <section class="container-all mx-auto">
+            <!--modify-class-->
+            <nav class="full-nav w-100 navbar navbar-expand-lg navbar-light bg-nav rounded container-fluid fixed-top">
+                <!--modify-class-->
+                <div class="container-fluid d-flex align-items-center justify-content-between">
+                    <div class=" d-flex align-items-center">
+                        <img class="img-fluid logo-img" src="./images/close-up-right.png" alt="">
+
+                        <a class="navbar-brand text-white nav-name ms-3" href="#">Haseeb</a>
+
+
+                    </div>
+                    <!-- sosial-icon -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about-me">ABOUT ME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#services">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact-form">CONTACT ME</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sosial-icon">
+                        <a target="_blank" href="https://www.instagram.com/haseeb.liaqat.10"><i
+                                class="fab fa-instagram  me-2"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/muhammad-haseeb-liaqat-622b1219b/"> <i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <!-- profile -->
+        <section class="container-all mx-auto">
+            <div id="home" class="profile-area d-flex align-items-center justify-content-between mx-auto ">
+                <div class="profile-info">
+                    <h1 class="text-white">Hello, <br> I'm Muhammad Haseeb Liaqat <br> Welcome to my world! </h1>
+
+
+                    <div class="wrapper">
+                        <ul class="dynamic-txts">
+                            <li><span>Freelancer</span></li>
+                            <li><span>Travel Enthusiast</span></li>
+                            <li><span>Full Stack Developer</span></li>
+                            <li><span>App Developer</span></li>
+                            <li><span>Data Scientist</span></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="cv-button">
+                        <a id="cv" class="text-white me-4" href="./assets/resume.pdf" target="_blank">Download Resume &nbsp;<i
+                                class="fas fa-file-download"></i></a>
+                        
+                        <a id="more" class="text-white" href="#about-me">Learn More</a>
+                    </div>
+                </div>
+                <div class="profile d-flex flex-column justify-content-center align-items-center my-profile-1">
+                    <img class="img-fluid" width="450" src="./images/close-up-left.png" alt="">
+
+
+                    <div class="universe">
+                        <h5 class="text-white fst-italic">"Empowering Dreams, Enriching Lives: One Visionary at a Time!"</h5>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div id="about-me" class="about text-white mx-auto text-center">
+                <h1 class="">About Me</h1>
+                <p class="">Hello, I'm Muhammad Haseeb, a versatile developer skilled in Flutter, MERN Stack development, and data science. With a robust background spanning two years of professional experience, I've had the privilege of working on a multitude of projects that have left a positive mark across the globe. My passion for innovation, coupled with a strong foundation in software engineering and data science, has driven me to create solutions that are not just functional but also transformative. I look forward to sharing my journey and the projects that have shaped my expertise with you. Welcome to my world of development and data science!</p>
+            </div>
+        </section>
+        <hr class="w-50 mx-auto">
+        <!-- what i do -->
+        <section class="container-all mx-auto">
+            <div class="what-i-do">
+                <h1 class="text-white text-center mb-5">What I Do</h1>
+                <div class="skill-boxs">
+                    <div class="skill-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="mobile" height="4.5em" viewBox="0 0 384 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>
+                                #mobile{
+                                    fill:#27ae60;
+                                    margin-left: -12vw;
+                                    margin-bottom: 0.5em;
+                                } 
+                            </style>
+                            <path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64H80V384H304V64z"/>
+                        </svg>
+                        <h3 class="text-white">App <br>
+                            Development</h3>
+                    </div>
+                    <div id="development" class="skill-box">
+                        <i class="bi bi-terminal"></i>
+                        <h3 class="text-white">Web <br>
+                            Development</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-uncharted"></i>
+                        <h3 class="text-white">Data <br>
+                            Science</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- my ditail -->
+        <section class="container-all mx-auto">
+            <div class="my-ditails">
+                <div class="my-ditail">
+                    <i class="far fa-user mb-2"></i>
+                    <h5 class="text-white">Full Name</h5>
+                    <p class="text-white">Muhammad Haseeb Liaqat</p>
+                </div>
+                <div class="my-ditail">
+                    <i class="far fa-envelope-open  mb-2"></i>
+                    <h5 class="text-white">E-mail Address</h5>
+                    <p class="text-white">haseebliaqat25@gmail.com</p>
+                </div>
+                <div class="my-ditail">
+                    <i class="fab fa-instagram mb-2"></i>
+                    <h5 class="text-white">Instagram</h5>
+                    <p class="text-white">@haseeb.liaqat.10</p>
+                </div>
+                <div class="my-ditail">
+                    <i class="fas fa-mobile mb-2"></i>
+                    <h5 class="text-white">Phone</h5>
+                    <p class="text-white">+92 313-4531078</p>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- My Skills -->
+        <section class="container-all mx-auto">
+            <div class="my-skills">
+                <h1 class="text-white text-center mb-5">My Skills</h1>
+                <div class="skills">
+
+                    <div class="skill">
+                        <div class="re-meter">
+                            <h1>90%</h1>
+                            <label class="text-white" for="html">Flutter</label>
+                        </div> <br>
+                        <meter class="text-white w-100" id="html" value="90" min="0" low="10" optimum="50" high="90"
+                            max="100">Flutter</meter><br>
+
+
+
+                    </div>
+                    <div class="skill">
+                        <div class="re-meter">
+                            <h1>85%</h1>
+                            <label class="text-white" for="MERN Stack">MERN Stack</label>
+                        </div> <br>
+                        <meter class="text-white w-100" id="css" value="85" min="0" low="10" optimum="50" high="90"
+                            max="100">MERN Stack</meter><br>
+
+
+
+                    </div>
+                    <div class="skill">
+                        <div class="re-meter">
+                            <h1>90%</h1>
+                            <label class="text-white" for="javascript">Python</label>
+                        </div> <br>
+                        <meter class="text-white w-100" id="javascript" value="90" min="0" low="10" optimum="50"
+                            high="90" max="100">Python</meter><br>
+
+
+
+                    </div>
+                    <div class="skill">
+                        <div class="re-meter">
+                            <h1>70%</h1> <label class="text-white" for="json">Data Science</label>
+                        </div> <br>
+                        <meter class="text-white w-100" id="json" value="70" min="0" low="10" optimum="50" high="90"
+                            max="100">Data Science</meter><br>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- My identity -->
+        <section class="container-fluid">
+            <div class="my-all-identity">
+                <div class="start-nav-area col-sm-12">
+                    <div class="my-profile-area">
+                        <div class="my-profile">
+                            <img class="img-fluid" src="./images/close-up-right.png" alt="">
+                            <div class="active-bg">
+                                <div class="active-color">
+
+                                </div>
+                            </div>
+                            <h3 class="text-white mt-3">Haseeb Liaqat</h3>
+                            <p class="text-white">Tech Lover</p>
+                        </div>
+                        <div class="sosial-icon footer-sosial-icon">
+                            <a class="me-2" target="_blank" href="https://www.linkedin.com/in/muhammad-haseeb-liaqat-622b1219b/"> <i class="fab fa-linkedin-in"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/haseeb.liaqat.10/"> <i class="fab fa-instagram"> </i></a>
+                        </div>
+
+                    </div>
+                    <div class="residence-area mx-auto">
+                        <div class="age my-info">
+                            <h6>Year Of Birth :</h6>
+                            <h6>2000</h6>
+                        </div>
+                        <div class="residence my-info">
+                            <h6>Residence :</h6>
+                            <h6>Pakistan</h6>
+                        </div>
+                        <div class="freelance my-info">
+                            <h6>Freelance :</h6>
+                            <h6 id="available">Available</h6>
+                        </div>
+                        <div class="address my-info">
+                            <h6>Address :</h6>
+                            <h6>Lahore, Pakistan</h6>
+                        </div>
+                    </div>
+
+                    <div class="all-languages mx-auto">
+                        <h3 class="mb-3 text-white">Languages</h3>
+
+                        <div class="footer-slills">
+                            <div class="meter-text">
+                                <label class="text-white" for="urdu">Urdu</label>
+                                <p class="text-white">100%</p>
+                            </div>
+                            <meter class="text-white w-100" id="urdu" value="100" min="0" low="10" optimum="50"
+                                high="90" max="100">Urdu</meter>
+                        </div>
+
+                        <div class="footer-slills">
+                            <div class="meter-text">
+                                <label class="text-white" for="english">English</label>
+                                <p class="text-white">90%</p>
+                            </div>
+                            <meter class="text-white w-100" id="english" value="90" min="0" low="10" optimum="50"
+                                high="90" max="100">English</meter>
+                        </div>
+
+                        <div class="footer-slills">
+                            <div class="meter-text">
+                                <label class="text-white" for="Punjabi">Punjabi</label>
+                                <p class="text-white">85%</p>
+                            </div>
+                            <meter class="text-white w-100" id="Punjabi" value="85" min="0" low="10" optimum="50"
+                                high="90" max="100">Punjabi</meter>
+                        </div>
+
+
+                    </div>
+
+                    <hr class="my-5">
+                    <!-- skills -->
+
+                    <div class="all-skils mx-auto">
+                        <h3 class="mb-3 text-white">Pro Skills</h3>
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="html">Flutter</label>
+                                <p class="text-white">90%</p>
+                            </div>
+                            <meter class="text-white w-100" id="html" value="90" min="0" low="10" optimum="50" high="90"
+                                max="100">Flutter</meter>
+                        </div>
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="Pyhton">Pyhton</label>
+                                <p class="text-white">85%</p>
+                            </div>
+                            <meter class="text-white w-100" id="Pyhton" value="85" min="0" low="10" optimum="50" high="90"
+                                max="100">Pyhton</meter>
+                        </div>
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="bootstrap">Data Science</label>
+                                <p class="text-white">85%</p>
+                            </div>
+                            <meter class="text-white w-100" id="bootstrap" value="90" min="0" low="10" optimum="50"
+                                high="90" max="100">Data Science</meter>
+                        </div>
+
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="wordpress">UI/UX</label>
+                                <p class="text-white">78%</p>
+                            </div>
+                            <meter class="text-white w-100" id="wordpress" value="78" min="0" low="10" optimum="50"
+                                high="90" max="100">UI/UX</meter>
+                        </div>
+
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="javascript">Database Managemenet</label>
+                                <p class="text-white">60%</p>
+                            </div>
+                            <meter class="text-white w-100" id="javascript" value="60" min="0" low="10" optimum="50"
+                                high="90" max="100">Database Managemene</meter>
+                        </div>
+
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="es6">ES6/JS</label>
+                                <p class="text-white">75%</p>
+                            </div>
+                            <meter class="text-white w-100" id="es6" value="75" min="0" low="10" optimum="50" high="90"
+                                max="100">es6</meter>
+                        </div>
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="json">Json</label>
+                                <p class="text-white">50%</p>
+                            </div>
+                            <meter class="text-white w-100" id="json" value="50" min="0" low="10" optimum="50" high="90"
+                                max="100">Json</meter>
+                        </div>
+
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="react">React.js</label>
+                                <p class="text-white">86%</p>
+                            </div>
+                            <meter class="text-white w-100" id="react" value="86" min="0" low="10" optimum="50" high="90"
+                                max="100">react.js</meter>
+                        </div>
+
+
+                        <div class="my-skills">
+                            <div class="meter-text">
+                                <label class="text-white" for="mongodb">MongoDB</label>
+                                <p class="text-white">66%</p>
+                            </div>
+                            <meter class="text-white w-100" id="mongodb" value="66" min="0" low="10" optimum="50"
+                                high="90" max="100">MongoDB</meter>
+                        </div>
+
+                    </div>
+                    <hr class="my-5">
+
+                </div>
+
+
+
+                <div class="middle-nav-area" id="middle-nav-area">
+                    <div class="hire-area">
+                        <div class="text-img">
+                            <div class="head-text">
+                                <h3 class="text-white slider-text">
+                                    <span class="slider">Hello, My Name Is Haseeb.</span> <br> <span
+                                        class="span-color">Web</span> Developer
+                                </h3>
+                                <p class="text-white">Hello, I'm Muhammad Haseeb, a Web Developer, an App Developer skilled in Flutter, a MERN Stack developer, and a data scientist with two years of professional experience. I've contributed to impactful projects worldwide, driven by my passion for innovation. Join me in my world of development and data science!"</p>
+                                <a id="hier" class="text-white" href="https://www.linkedin.com/in/muhammad-haseeb-liaqat-622b1219b/" target="_blank">HIER ME&nbsp; <i
+                                        class="fas fa-chevron-circle-right"></i></a>
+                            </div>
+                            <div class="banner">
+                                <img width="250" class="img-fluid banner-img" src="./images/close-up-left.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Projects
+                    <h3 class="text-white projects">Some Awesome <span class="span-color">Projects</span></h3>
+ -->
+
+
+                    <!-- services -->
+                    <div id="services" class="services-area">
+                        <div class="servise-head">
+                            <h3 class="text-white">My Awesome <span class="span-color">Services</span></h3>
+                            <p class="text-white">I specialize in Flutter and MERN Stack app development, along with data science services for analytics and insights. Let's achieve your goals together.   </p>
+                        </div>
+                        <div class="servises-box">
+                            
+                            <div class="servise-box">
+                                <div class="service-icon">
+                                    <?xml version="1.0"?>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="80" height="80" x="0"
+                                        y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <g xmlns="http://www.w3.org/2000/svg" id="outline">
+                                                <path d="m23 12h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path d="m27 12h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path d="m31 12h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path d="m37 6h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path
+                                                    d="m55.924 61.383a1 1 0 0 0 -.217-1.09l-5.8-5.8-1.885-7.541.972-6.8a1.017 1.017 0 0 0 -.006-.321l-2-10.972a3.164 3.164 0 0 0 -2.988-2.859 2.961 2.961 0 0 0 -.995.183v-19.183a5.006 5.006 0 0 0 -5-5h-20.005a5.006 5.006 0 0 0 -5 5v12.268a3.513 3.513 0 0 0 -2.227.045 3.879 3.879 0 0 0 -2.518 2.834 3.826 3.826 0 0 0 1.022 3.547l2.956 2.956a3.738 3.738 0 0 0 -1.839 4.584 3.8 3.8 0 0 0 -2.094 1.059 3.824 3.824 0 0 0 0 5.414l1.636 1.636a3.781 3.781 0 0 0 -1.638.95 3.832 3.832 0 0 0 0 5.414l4 4a3.824 3.824 0 0 0 .7.542v.751a5.006 5.006 0 0 0 5 5h9.586l3.707 3.707a1 1 0 0 0 .709.293h23a1 1 0 0 0 .924-.617zm-32.924-57.383h10v2h-10zm-8 17v-14a3 3 0 0 1 3-3h3v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3h3a3 3 0 0 1 3 3v41h-22.315a3.789 3.789 0 0 0 -.97-1.707l-1.642-1.642a3.754 3.754 0 0 0 2.767-3.651 3.8 3.8 0 0 0 -.216-1.209 3.733 3.733 0 0 0 2.654-1.791h4.722a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1h-6a1 1 0 0 0 -1 1v.6l-2.29-2.289a3.855 3.855 0 0 0 -1.71-.968zm6 12.66v-1.66h4v4h-3.162a3.81 3.81 0 0 0 -.838-2.337zm-10.309-9.38a1.837 1.837 0 0 1 -.483-1.7 1.887 1.887 0 0 1 1.255-1.387 1.419 1.419 0 0 1 .486-.084 1.833 1.833 0 0 1 1.051.349v5.131zm2.026 6.447a1.912 1.912 0 0 1 1.3-.527 1.825 1.825 0 0 1 1.289.527l3.994 3.993a1.851 1.851 0 0 1 .544 1.3 1.828 1.828 0 0 1 -.123.648 1.73 1.73 0 0 1 -.414.644 1.835 1.835 0 0 1 -2.424.153l-4.162-4.153a1.815 1.815 0 0 1 -.537-1.292 1.845 1.845 0 0 1 .533-1.293zm-3 7.566a1.83 1.83 0 0 1 1.3-3.123 1.82 1.82 0 0 1 1.134.4l4.149 4.137a1.829 1.829 0 0 1 -2.586 2.586zm4 12-4-4a1.829 1.829 0 0 1 2.583-2.586l4 4a1.829 1.829 0 0 1 -2.586 2.586zm4.283 5.707a3 3 0 0 1 -3-3v-.175h.008a3.772 3.772 0 0 0 3.677-2.825h22.315v3a3 3 0 0 1 -3 3zm14.414 4-2-2h7.586a5.006 5.006 0 0 0 5-5v-24.006a1 1 0 0 1 1-.994c.522 0 .925.586 1.016 1.179l1.971 10.841-.977 6.838a1.013 1.013 0 0 0 .02.384l2 8a1 1 0 0 0 .263.465l4.293 4.293z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path d="m26 52h4v2h-4z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path
+                                                    d="m20 28h6a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1zm1-6h4v4h-4z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path
+                                                    d="m29 27a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1h-6a1 1 0 0 0 -1 1zm2-5h4v4h-4z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path
+                                                    d="m36 30h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1zm-1 6h-4v-4h4z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path d="m23 44h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path d="m27 44h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                                <path d="m31 44h2v2h-2z" fill="#ffffff" data-original="#000000"
+                                                    class="" />
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <div class="service-detail">
+                                    <h5 class="text-white">Mobail App Design</h5>
+                                    <p class="text-white">Flutter, Android Studio</p>
+                                </div>
+                            </div>
+
+                            <div class="servise-box">
+                                <div class="service-icon">
+                                    <i class="fas fa-laptop-code text-white"></i>
+                                </div>
+                                <div class="service-detail">
+                                    <h5 class="text-white">Web Development</h5>
+                                    <p class="text-white">MERN Stack</p>
+                                </div>
+                            </div>
+
+                            <div class="servise-box">
+                                <div class="service-icon">
+                                    <?xml version="1.0"?>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="80" height="80" x="0"
+                                        y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <g xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="m282.983 127.553 81.847-98.106h-364.83v98.106zm-91.65-64.61h30v30.167h-30zm-64.5 0h30v30.167h-30zm-64.5 0h30v30.167h-30z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path
+                                                    d="m403.899 29.447-106.875 128.106h-297.024v325h512v-453.106zm-169.301 311.053c0 30.603-24.897 55.5-55.5 55.5s-55.5-24.897-55.5-55.5v-93.5h30v93.5c0 14.061 11.439 25.5 25.5 25.5s25.5-11.439 25.5-25.5v-93.5h30zm147.603 56h-34.315l-24.486-44.099-24.486 44.099h-34.315l41.644-75-41.644-75h34.315l24.486 44.099 24.486-44.099h34.315l-41.644 75z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <div class="service-detail">
+                                    <h5 class="text-white">UI/UX Desing</h5>
+                                    <p class="text-white">Mobail App, Website Design</p>
+                                </div>
+                            </div>
+
+                            <div class="servise-box">
+                                <div class="service-icon">
+                                    <?xml version="1.0"?>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="80" height="80" x="0"
+                                        y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <g xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="m30 451h280.344c-5.167-8.86-8.344-19.023-8.344-30v-30h-287c-8.284 0-15 6.714-15 15v15c0 16.567 13.431 30 30 30z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path
+                                                    d="m30 106v255h272v-180c0-33.091 26.909-60 60-60h120v-15c0-24.814-20.186-45-45-45h-362c-24.814 0-45 20.186-45 45z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                                <path
+                                                    d="m482 151h-120c-16.538 0-30 13.462-30 30v240c0 16.538 13.462 30 30 30h120c16.538 0 30-13.462 30-30v-240c0-16.538-13.462-30-30-30zm-60 45c8.284 0 15 6.714 15 15 0 8.284-6.716 15-15 15s-15-6.716-15-15c0-8.286 6.716-15 15-15zm15 210h-30c-8.291 0-15-6.709-15-15s6.709-15 15-15h30c8.291 0 15 6.709 15 15s-6.709 15-15 15z"
+                                                    fill="#ffffff" data-original="#000000" class="" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="service-detail">
+                                    <h5 class="text-white">Responsive Website</h5>
+                                    <p class="text-white">Mobile-Friendly</p>
+                                </div>
+                            </div>
+
+
+                            <div class="servise-box">
+                                <div class="service-icon">
+                                    <i class="fab fa-figma text-white"></i>
+                                </div>
+                                <div class="service-detail">
+                                    <h5 class="text-white">Figma To HTML</h5>
+                                    <p class="text-white">Intuitive & Aesthetic Design</p>
+                                </div>
+                            </div>
+
+
+                            <div class="servise-box">
+                                <div class="service-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="4.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>
+
+                                </div>
+                                <div class="service-detail">
+                                    <h5 class="text-white">Data Science</h5>
+                                    <p class="text-white">Cleaning & Analyzing</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="end-nav-area">
+                    <div class="site-icons">
+                        <div class="user-icons">
+                            <a href="#middle-nav-area"><i class="far fa-user-circle"></i></a>
+                        </div>
+
+                        <div class="all-icons">
+                            <a href="#home"><i class="fas fa-home"></i></a>
+                            <a href="./assets/resume.pdf"><i class="far fa-file-alt"></i></a>
+                            <a href="#middle-nav-area"><i class="fas fa-user-graduate"></i></a>
+                            <a href="#contact-form"><i class="fas fa-comment-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get in touch -->
+        
+        <section id="contact-form" class="container-all mx-auto">
+            <div class="get-in-touch mx-auto">
+                <h1 class="text-white text-center">Get in touch</h1>
+                <div class="get-touch">
+                    <form class="mx-auto" >
+                        <div>
+                            <input type="text" name="name" placeholder="Name"  id="fname">
+                            <input type="email" placeholder="E-mail"  id="email">
+                            
+                        </div>
+                        <div>
+                            <textarea type="text" name="message" placeholder="Massage" id="message"></textarea>
+                        </div>
+                        <div> 
+                        
+                            <button class="submit-btn" id="submit-btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>   
+
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2023 Vex Co. All Rights Reserved.</p>
+    </footer>
+
+    <!-- bootstrap cdn js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function sendWhatsapp(e) {
+            // prevent defult
+            e.preventDefault();
+            const link = `https://wa.me/923134531078?text=`
+            // get the name
+            const fname = document.getElementById("fname").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+            
+            const textMessage = `Name: ${fname}
+            Email: ${email}
+            Message: ${message}`
+
+            // encode the text
+            const encodedText = encodeURI(textMessage);
+            // open the whatsapp
+            window.open(link + encodedText, "_blank");
+        } 
+
+        
+        // add listener to the button
+        document.getElementById("submit-btn").addEventListener("click", sendWhatsapp);
+    </script>
+
+</body>
+
+</html>
